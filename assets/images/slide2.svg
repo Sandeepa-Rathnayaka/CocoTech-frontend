@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0F8FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DDFFDD;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgGradient)"/>
+  
+  <!-- Graph/Chart Background -->
+  <rect x="100" y="100" width="600" height="300" rx="10" fill="white" stroke="#ccc" stroke-width="1"/>
+  
+  <!-- Graph Grid Lines -->
+  <line x1="100" y1="150" x2="700" y2="150" stroke="#eee" stroke-width="1"/>
+  <line x1="100" y1="200" x2="700" y2="200" stroke="#eee" stroke-width="1"/>
+  <line x1="100" y1="250" x2="700" y2="250" stroke="#eee" stroke-width="1"/>
+  <line x1="100" y1="300" x2="700" y2="300" stroke="#eee" stroke-width="1"/>
+  <line x1="100" y1="350" x2="700" y2="350" stroke="#eee" stroke-width="1"/>
+  
+  <line x1="183" y1="100" x2="183" y2="400" stroke="#eee" stroke-width="1"/>
+  <line x1="266" y1="100" x2="266" y2="400" stroke="#eee" stroke-width="1"/>
+  <line x1="349" y1="100" x2="349" y2="400" stroke="#eee" stroke-width="1"/>
+  <line x1="432" y1="100" x2="432" y2="400" stroke="#eee" stroke-width="1"/>
+  <line x1="515" y1="100" x2="515" y2="400" stroke="#eee" stroke-width="1"/>
+  <line x1="598" y1="100" x2="598" y2="400" stroke="#eee" stroke-width="1"/>
+  
+  <!-- Graph Axes -->
+  <line x1="100" y1="400" x2="700" y2="400" stroke="#333" stroke-width="2"/>
+  <line x1="100" y1="100" x2="100" y2="400" stroke="#333" stroke-width="2"/>
+  
+  <!-- Labels -->
+  <text x="95" y="420" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Jan</text>
+  <text x="183" y="420" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Feb</text>
+  <text x="266" y="420" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Mar</text>
+  <text x="349" y="420" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Apr</text>
+  <text x="432" y="420" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">May</text>
+  <text x="515" y="420" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Jun</text>
+  <text x="598" y="420" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Jul</text>
+  <text x="680" y="420" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Aug</text>
+  
+  <text x="70" y="350" font-family="Arial, sans-serif" font-size="14" text-anchor="end">25</text>
+  <text x="70" y="300" font-family="Arial, sans-serif" font-size="14" text-anchor="end">50</text>
+  <text x="70" y="250" font-family="Arial, sans-serif" font-size="14" text-anchor="end">75</text>
+  <text x="70" y="200" font-family="Arial, sans-serif" font-size="14" text-anchor="end">100</text>
+  <text x="70" y="150" font-family="Arial, sans-serif" font-size="14" text-anchor="end">125</text>
+  <text x="70" y="100" font-family="Arial, sans-serif" font-size="14" text-anchor="end">150</text>
+  
+  <!-- Yield Bar Chart -->
+  <rect x="120" y="280" width="30" height="120" fill="#4CD964" rx="4"/>
+  <rect x="203" y="250" width="30" height="150" fill="#4CD964" rx="4"/>
+  <rect x="286" y="220" width="30" height="180" fill="#4CD964" rx="4"/>
+  <rect x="369" y="170" width="30" height="230" fill="#4CD964" rx="4"/>
+  <rect x="452" y="150" width="30" height="250" fill="#4CD964" rx="4"/>
+  <rect x="535" y="130" width="30" height="270" fill="#4CD964" rx="4"/>
+  <rect x="618" y="120" width="30" height="280" fill="#4CD964" rx="4"/>
+  
+  <!-- Data Points and Line for trend -->
+  <circle cx="135" cy="280" r="5" fill="#FF9500"/>
+  <circle cx="218" cy="250" r="5" fill="#FF9500"/>
+  <circle cx="301" cy="220" r="5" fill="#FF9500"/>
+  <circle cx="384" cy="170" r="5" fill="#FF9500"/>
+  <circle cx="467" cy="150" r="5" fill="#FF9500"/>
+  <circle cx="550" cy="130" r="5" fill="#FF9500"/>
+  <circle cx="633" cy="120" r="5" fill="#FF9500"/>
+  
+  <path d="M135,280 L218,250 L301,220 L384,170 L467,150 L550,130 L633,120" stroke="#FF9500" stroke-width="3" fill="none"/>
+  
+  <!-- Coconut Icon -->
+  <circle cx="650" cy="60" r="30" fill="#8B4513"/>
+  <path d="M635,40 C635,30 665,30 665,40 C665,20 685,30 675,45 C695,40 685,60 670,55 C670,70 650,70 650,55 C640,65 625,60 635,50 C620,60 620,40 635,40 Z" fill="#2E8B57"/>
+  
+  <!-- Title Box -->
+  <rect x="400" y="50" width="300" height="80" rx="10" fill="rgba(0,0,0,0.5)"/>
+  <text x="420" y="95" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF">Maximize Yield</text>
+  <text x="420" y="125" font-family="Arial, sans-serif" font-size="18" fill="#FFFFFF">Get data-driven insights for better results</text>
+</svg>

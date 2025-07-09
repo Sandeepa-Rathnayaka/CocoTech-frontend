@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <!-- Sky gradient -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E90FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#skyGradient)"/>
+  
+  <!-- Sun -->
+  <circle cx="650" cy="80" r="60" fill="#FFD700"/>
+  <circle cx="650" cy="80" r="70" fill="#FFD700" opacity="0.3"/>
+  
+  <!-- Mountains in background -->
+  <path d="M0,280 L150,180 L250,240 L350,150 L450,230 L550,160 L650,240 L800,190 L800,450 L0,450 Z" fill="#6B8E23"/>
+  
+  <!-- Farm Land -->
+  <rect x="0" y="320" width="800" height="130" fill="#8B4513"/>
+  
+  <!-- Coconut Trees -->
+  <!-- Tree 1 -->
+  <line x1="150" y1="320" x2="150" y2="270" stroke="#8B4513" stroke-width="10"/>
+  <path d="M120,270 C120,240 180,240 180,270 C180,240 220,220 200,260 C240,240 220,200 190,230 C190,180 150,180 150,230 C130,210 100,230 130,250 C90,230 80,270 120,270 Z" fill="#2E8B57"/>
+  <circle cx="130" cy="260" r="8" fill="#8B4513"/>
+  <circle cx="160" cy="255" r="8" fill="#8B4513"/>
+  <circle cx="170" cy="270" r="8" fill="#8B4513"/>
+  
+  <!-- Tree 2 -->
+  <line x1="500" y1="320" x2="500" y2="250" stroke="#8B4513" stroke-width="12"/>
+  <path d="M460,250 C460,210 540,210 540,250 C540,210 590,190 560,240 C610,210 590,160 550,200 C550,140 500,140 500,200 C470,170 430,200 470,230 C420,200 410,250 460,250 Z" fill="#2E8B57"/>
+  <circle cx="480" cy="240" r="10" fill="#8B4513"/>
+  <circle cx="520" cy="235" r="10" fill="#8B4513"/>
+  <circle cx="500" cy="245" r="10" fill="#8B4513"/>
+  
+  <!-- Drone monitoring farm -->
+  <path d="M350,150 L370,140 L390,150 L370,160 Z" fill="#444"/>
+  <rect x="368" y="135" width="4" height="5" fill="#444"/>
+  <rect x="368" y="160" width="4" height="5" fill="#444"/>
+  <circle cx="370" cy="150" r="3" fill="#FF0000"/>
+  
+  <!-- Wireless signal above farm -->
+  <path d="M370,110 C390,90 410,110 370,110" stroke="#444" stroke-width="3" fill="none"/>
+  <path d="M370,120 C385,105 395,120 370,120" stroke="#444" stroke-width="3" fill="none"/>
+  <path d="M370,130 C380,120 385,130 370,130" stroke="#444" stroke-width="3" fill="none"/>
+  
+  <!-- Title -->
+  <rect x="50" y="50" width="400" height="80" rx="10" fill="rgba(0,0,0,0.5)"/>
+  <text x="70" y="95" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF">Smart Farm Management</text>
+  <text x="70" y="125" font-family="Arial, sans-serif" font-size="18" fill="#FFFFFF">Monitor your coconut farm from anywhere</text>
+</svg>

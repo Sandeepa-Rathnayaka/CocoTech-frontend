@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <!-- Sky gradient background -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#B0E0E6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#87CEEB;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cloudGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F0F0F0;stop-opacity:1" />
+    </linearGradient>
+    <filter id="dropShadow" x="0" y="0" width="200%" height="200%">
+      <feOffset result="offOut" in="SourceAlpha" dx="2" dy="2" />
+      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="5" />
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#skyGradient)"/>
+  
+  <!-- Sun with rays -->
+  <circle cx="600" cy="100" r="40" fill="#FFD700"/>
+  <g transform="translate(600, 100)">
+    <line x1="0" y1="-60" x2="0" y2="-45" stroke="#FFD700" stroke-width="4"/>
+    <line x1="42" y1="-42" x2="32" y2="-32" stroke="#FFD700" stroke-width="4"/>
+    <line x1="60" y1="0" x2="45" y2="0" stroke="#FFD700" stroke-width="4"/>
+    <line x1="42" y1="42" x2="32" y2="32" stroke="#FFD700" stroke-width="4"/>
+    <line x1="-42" y1="-42" x2="-32" y2="-32" stroke="#FFD700" stroke-width="4"/>
+    <line x1="-60" y1="0" x2="-45" y2="0" stroke="#FFD700" stroke-width="4"/>
+    <line x1="-42" y1="42" x2="-32" y2="32" stroke="#FFD700" stroke-width="4"/>
+  </g>
+  
+  <!-- Clouds -->
+  <path d="M150,100 C170,80 200,80 220,100 C240,80 270,80 290,100 C310,80 340,90 350,110 C370,100 400,110 410,130 C420,110 450,110 460,130 C480,110 510,110 520,130 L520,140 L150,140 Z" 
+        fill="url(#cloudGradient)" filter="url(#dropShadow)"/>
+  <path d="M600,180 C620,160 650,160 670,180 C690,160 720,170 730,190 C750,180 780,190 790,210 L790,220 L600,220 Z" 
+        fill="url(#cloudGradient)" filter="url(#dropShadow)"/>
+  <path d="M50,220 C70,200 100,200 120,220 C140,200 170,210 180,230 C200,220 230,230 240,250 L240,260 L50,260 Z" 
+        fill="url(#cloudGradient)" filter="url(#dropShadow)"/>
+  
+  <!-- Rain drops -->
+  <g fill="#4DA3FF">
+    <path d="M180,150 L183,170 A3,5 0 1,1 177,170 Z"/>
+    <path d="M210,160 L213,180 A3,5 0 1,1 207,180 Z"/>
+    <path d="M240,145 L243,165 A3,5 0 1,1 237,165 Z"/>
+    <path d="M270,155 L273,175 A3,5 0 1,1 267,175 Z"/>
+    <path d="M300,150 L303,170 A3,5 0 1,1 297,170 Z"/>
+    <path d="M330,160 L333,180 A3,5 0 1,1 327,180 Z"/>
+    <path d="M360,145 L363,165 A3,5 0 1,1 357,165 Z"/>
+    <path d="M390,155 L393,175 A3,5 0 1,1 387,175 Z"/>
+    <path d="M420,150 L423,170 A3,5 0 1,1 417,170 Z"/>
+    <path d="M450,160 L453,180 A3,5 0 1,1 447,180 Z"/>
+    <path d="M480,145 L483,165 A3,5 0 1,1 477,165 Z"/>
+  </g>
+  
+  <!-- Farm land -->
+  <rect x="0" y="350" width="800" height="100" fill="#8B4513"/>
+  
+  <!-- Coconut Trees -->
+  <g transform="translate(100, 350)">
+    <line x1="0" y1="0" x2="0" y2="-50" stroke="#8B4513" stroke-width="8"/>
+    <path d="M-30,-50 C-30,-80 30,-80 30,-50 C30,-80 60,-100 40,-55 C60,-85 50,-110 30,-70 C30,-110 -30,-110 -30,-70 C-50,-90 -60,-70 -40,-50 Z" fill="#2E8B57"/>
+  </g>
+  
+  <g transform="translate(250, 350)">
+    <line x1="0" y1="0" x2="0" y2="-60" stroke="#8B4513" stroke-width="8"/>
+    <path d="M-40,-60 C-40,-100 40,-100 40,-60 C40,-100 70,-120 50,-65 C75,-110 65,-140 45,-85 C45,-140 -45,-140 -45,-85 C-70,-110 -80,-90 -55,-60 Z" fill="#2E8B57"/>
+  </g>
+  
+  <g transform="translate(400, 350)">
+    <line x1="0" y1="0" x2="0" y2="-55" stroke="#8B4513" stroke-width="8"/>
+    <path d="M-35,-55 C-35,-90 35,-90 35,-55 C35,-90 65,-110 45,-60 C65,-95 55,-125 35,-75 C35,-125 -35,-125 -35,-75 C-55,-100 -65,-80 -45,-55 Z" fill="#2E8B57"/>
+  </g>
+  
+  <g transform="translate(550, 350)">
+    <line x1="0" y1="0" x2="0" y2="-45" stroke="#8B4513" stroke-width="8"/>
+    <path d="M-25,-45 C-25,-75 25,-75 25,-45 C25,-75 50,-95 35,-50 C50,-80 45,-105 30,-65 C30,-105 -30,-105 -30,-65 C-45,-85 -55,-70 -35,-45 Z" fill="#2E8B57"/>
+  </g>
+  
+  <g transform="translate(700, 350)">
+    <line x1="0" y1="0" x2="0" y2="-50" stroke="#8B4513" stroke-width="8"/>
+    <path d="M-30,-50 C-30,-80 30,-80 30,-50 C30,-80 60,-100 40,-55 C60,-85 50,-110 30,-70 C30,-110 -30,-110 -30,-70 C-50,-90 -60,-70 -40,-50 Z" fill="#2E8B57"/>
+  </g>
+  
+  <!-- Irrigation system -->
+  <path d="M100,330 L700,330" stroke="#888" stroke-width="4"/>
+  <path d="M150,330 L150,300" stroke="#888" stroke-width="2"/>
+  <path d="M250,330 L250,300" stroke="#888" stroke-width="2"/>
+  <path d="M350,330 L350,300" stroke="#888" stroke-width="2"/>
+  <path d="M450,330 L450,300" stroke="#888" stroke-width="2"/>
+  <path d="M550,330 L550,300" stroke="#888" stroke-width="2"/>
+  <path d="M650,330 L650,300" stroke="#888" stroke-width="2"/>
+  
+  <!-- Sprinklers with water -->
+  <circle cx="150" cy="300" r="5" fill="#666"/>
+  <path d="M140,300 C145,280 155,280 160,300" stroke="#4DA3FF" stroke-width="1.5" fill="none"/>
+  <path d="M143,300 C148,285 152,285 157,300" stroke="#4DA3FF" stroke-width="1.5" fill="none"/>
+  <path d="M146,300 C149,290 151,290 154,300" stroke="#4DA3FF" stroke-width="1.5" fill="none"/>
+  
+  <circle cx="350" cy="300" r="5" fill="#666"/>
+  <path d="M340,300 C345,280 355,280 360,300" stroke="#4DA3FF" stroke-width="1.5" fill="none"/>
+  <path d="M343,300 C348,285 352,285 357,300" stroke="#4DA3FF" stroke-width="1.5" fill="none"/>
+  <path d="M346,300 C349,290 351,290 354,300" stroke="#4DA3FF" stroke-width="1.5" fill="none"/>
+  
+  <circle cx="550" cy="300" r="5" fill="#666"/>
+  <path d="M540,300 C545,280 555,280 560,300" stroke="#4DA3FF" stroke-width="1.5" fill="none"/>
+  <path d="M543,300 C548,285 552,285 557,300" stroke="#4DA3FF" stroke-width="1.5" fill="none"/>
+  <path d="M546,300 C549,290 551,290 554,300" stroke="#4DA3FF" stroke-width="1.5" fill="none"/>
+  
+  <!-- Mobile device controlling irrigation -->
+  <rect x="50" y="180" width="80" height="130" rx="10" fill="#333" stroke="#000" stroke-width="2"/>
+  <rect x="55" y="190" width="70" height="100" rx="2" fill="#4DA3FF"/>
+  <circle cx="90" cy="300" r="8" fill="#444" stroke="#222" stroke-width="1"/>
+  
+  <path d="M70,220 L110,220 M70,240 L100,240 M70,260 L90,260" stroke="white" stroke-width="2"/>
+  
+  <!-- Connection lines -->
+  <path d="M130,240 C180,260 250,240 330,240 C400,240 650,240 710,240" stroke="#666" stroke-dasharray="5,5" stroke-width="2"/>
+  
+  <!-- Title box -->
+  <rect x="50" y="50" width="400" height="80" rx="10" fill="rgba(0,0,0,0.5)"/>
+  <text x="70" y="95" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF">Weather Integration</text>
+  <text x="70" y="125" font-family="Arial, sans-serif" font-size="18" fill="#FFFFFF">Optimize irrigation based on forecasts</text>
+</svg>

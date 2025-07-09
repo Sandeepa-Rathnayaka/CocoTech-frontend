@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <!-- Background -->
+  <rect width="800" height="450" fill="#f0f0f0"/>
+  <!-- Placeholder icon -->
+  <path d="M400,225 m-80,0 a80,80 0 1,0 160,0 a80,80 0 1,0 -160,0" fill="#e0e0e0" stroke="#d0d0d0" stroke-width="8"/>
+  <path d="M400,185 L400,265 M360,225 L440,225" stroke="#b0b0b0" stroke-width="12" stroke-linecap="round"/>
+  <!-- Placeholder text -->
+  <text x="400" y="320" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#888888">Image Loading...</text>
+</svg>
